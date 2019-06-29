@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+</style>
+<script type="text/javascript">
+function myfunction()
+{
+alert("Successfully Added to Cart")
+}
+</script>
+</head>
+<body>
+
+<h2 style="text-align:center">Product Card</h2>
+<div class="card">
+<form action="buy" method="post">
+
+  <img src="/images/nike.jpg" alt="Denim Jeans" style="width:100%">
+  <h1>Nike</h1>
+  <p class="price">$450.00</p>
+  <p>The most recent additions to their line are the Nike 6.0, Nike NYX, and Nike SB shoes, designed for skateboarding.</p>
+  <p><button value="Nike" name="name" onclick="myfunction();">Add to Cart</button></p>
+</form>
+<form action="buy" method="post">
+
+  <img src="/images/puma.jpg" alt="Denim Jeans" style="width:100%">
+  <h1>Nike</h1>
+  <p class="price">$500.00</p>
+  <p>The most recent additions to their line are the Nike 6.0, Nike NYX, and Nike SB shoes, designed for skateboarding.</p>
+  <p><button value="Puma" name="name" onclick="myfunction();">Add to Cart</button></p>
+</form>
+<form action="buy" method="post">
+
+  <img src="/images/tomato.jpg" alt="Denim Jeans" style="width:100%">
+  <h1>Nike</h1>
+  <p class="price">$25.00</p>
+  <p>The most recent additions to their line are the Nike 6.0, Nike NYX, and Nike SB shoes, designed for skateboarding.</p>
+  <p><button value="Tomato" name="name" onclick="myfunction();">Add to Cart</button></p>
+</form>
+</div>
+</body>
+</html>
