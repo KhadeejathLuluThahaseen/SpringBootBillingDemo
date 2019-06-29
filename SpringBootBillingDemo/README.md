@@ -9,7 +9,7 @@ Technologies that I have use to build the application:
 4. Logging Framework:sl4j
 5. Build Automation Tool: Maven
 6. Encryption: Bcrypt Password Encoder
-7. Datatabase: MySQL
+7. Datatabase: MySQL Database
 
 Created the MVC Application with :
 1. Controller Layer
